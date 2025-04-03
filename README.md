@@ -14,3 +14,11 @@
 sbt
 compile
 ~run
+```
+
+## Для запуска тестов
+
+```bash
+sbt
+test
+```
