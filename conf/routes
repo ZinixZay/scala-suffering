@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+POST    /create                     controllers.CrudController.createPerson()
+
+GET     /getAll                     controllers.CrudController.getAllPersons()
+
+PUT     /update/:index              controllers.CrudController.updatePerson(index: Int)
+
+DELETE  /delete/:index              controllers.CrudController.deletePerson(index: Int)
